@@ -6,12 +6,11 @@ Built with:
 - Streamlit
 - FastF1
 - Matplotlib
-- Python 🐍
+- Python 
 
 ### 🔧 How to Run
 
 ```
-(in bash)
 pip install -r requirements.txt
 streamlit run app.py
 '''
