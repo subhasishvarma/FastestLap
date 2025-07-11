@@ -19,7 +19,7 @@ def plot_fastest_laps(fastest_laps):
     }
 
     y_values = fastest_laps['Driver']
-    x_values = fastest_laps['LapTimeSeconds']
+    x_values = fastest_laps['LapTimeSeconds'].descending()
     bar_color = '#e0e0e0'
 
     def format_laptime(seconds):
